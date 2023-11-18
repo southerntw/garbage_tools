@@ -1,17 +1,10 @@
 // Langsung copy dari spreadsheet masukkan di sini
 // JANGAN LUPA LIST 100
-const masukkanDiSini = `@nurulwahdania182
-@erwinsisy
-@fadhilahmazzahr1
-@nfahrisalim
-@salsabilaz23h
-@IvanBetrandi
-@akunnyadirga
-@rahmanmka23h
-@areliopalinoan
-@Hamdi070705
-@wahidan23h
-@fauzanalwan193`;
+const masukkanDiSini = `@southerntw
+@southerntw
+@southerntw
+@southerntw
+@southerntw`;
 
 const usernames = masukkanDiSini.split('\n');
 const desiredUsernames = usernames.map(username => username.replace('@', ''));
@@ -37,4 +30,3 @@ if (foundUsernames.length == 0) {
 } else {
     console.log("Total yang submit:", foundUsernames.length, "Praktikan")
 }
-
