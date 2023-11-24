@@ -3,7 +3,7 @@
 if (isset($_POST['file'])) {
     // Set the file name and path based on the selected option
     $file_name = $_POST['file'];
-    $file_path = 'C:/Users/fauza/OneDrive/Documents/Modul/' . $file_name;
+    $file_path = '/file/path' . $file_name;
 
     // Check if the file exists
     if (file_exists($file_path)) {
